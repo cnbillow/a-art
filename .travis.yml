@@ -5,6 +5,8 @@ sudo: required
 # 指定node_js版本
 node_js: stable
 # 指定缓存模块，可选。缓存可加快编译速度。
+git:
+  depth: 1
 cache:
   directories:
     - node_modules
