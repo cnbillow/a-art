@@ -30,7 +30,7 @@ before_script:
 
 # 执行构建
 script:
-  - ng build --prod --build-optimizer
+  - ng build --base-href=/a-art/ --prod --build-optimizer
 
 after_success:
 - cd ./a-art
